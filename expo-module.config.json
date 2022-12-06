@@ -1,0 +1,9 @@
+{
+  "platforms": ["ios", "android", "web"],
+  "ios": {
+    "modules": ["ExpoWifiRttModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.wifirttmodule.ExpoWifiRttModule"]
+  }
+}

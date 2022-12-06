@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "expo-wifi-rtt-module": ["../src/index"],
+      "expo-wifi-rtt-module/*": ["../src/*"]
+    }
+  }
+}
